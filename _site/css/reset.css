@@ -29,8 +29,8 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #eee;
   color: #161616; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #fff;
-    color: #A1172C;
+    background: #fff !important;
+    color: #A1172C !important;
     border-color: #eee; }
 
 .block {
@@ -43,6 +43,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .lead {
   font-weight: 400; }
+
+.unmargin {
+  margin: 0 !important; }
 
 .unmargin-top {
   margin-top: 0 !important; }
@@ -82,13 +85,18 @@ h1, h2, h3, h4, h5, h6 {
 .talks {
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.3);
   position: relative; }
-  .talks .social {
-    margin-top: 5px;
-    display: inline-block;
-    padding: 7px; }
-    .talks .social i {
-      color: #A1172C;
-      margin-right: 4px; }
+  .talks .talk {
+    margin-bottom: 30px; }
+    .talks .talk .description {
+      padding: 0 20px; }
+    .talks .talk .social {
+      margin-top: 5px;
+      display: inline-block;
+      padding: 7px;
+      font-size: 18px; }
+      .talks .talk .social i {
+        color: #A1172C;
+        margin-right: 4px; }
 
 .section-title {
   margin: 0;
@@ -107,6 +115,10 @@ h1, h2, h3, h4, h5, h6 {
   .map .white {
     background: #fff;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.3); }
+
+.sponsors {
+  background: #fff;
+  color: #161616; }
 
 footer {
   border-top: 1px solid #303030;
