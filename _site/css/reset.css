@@ -2,7 +2,7 @@ body {
   color: #fff;
   background: #A1172C;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 16px; }
@@ -55,8 +55,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   padding: 60px 0 90px;
-  background: #A1172C url("../images/bg-red.png");
-  position: relative; }
+  background: url("../images/bg-hero.png");
+  position: relative;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
   .hero:after {
     content: ' ';
     display: block;
@@ -65,7 +66,12 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(rgba(161, 23, 44, 0) 40%, #A1172C); }
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #a1172b), color-stop(1, #a1172b));
+    background-image: -o-linear-gradient(right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%);
+    background-image: -moz-linear-gradient(right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%);
+    background-image: -webkit-linear-gradient(right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%);
+    background-image: -ms-linear-gradient(right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%);
+    background-image: linear-gradient(to right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%); }
   .hero .content {
     position: relative;
     z-index: 1; }
