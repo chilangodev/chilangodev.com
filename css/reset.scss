@@ -14,7 +14,7 @@ body {
   color: $white;
   background: $accent-color;
   text-align: center;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
@@ -80,8 +80,9 @@ h1, h2, h3, h4, h5, h6 {
 
   .hero {
     padding: 60px 0 90px;
-    background: $accent-color url('../images/bg-red.png');
+    background: url('../images/bg-hero.png');
     position: relative;
+    text-shadow: 0 0 10px rgba(0,0,0,.3);
     &:after {
       content: ' ';
       display: block;
@@ -90,10 +91,20 @@ h1, h2, h3, h4, h5, h6 {
       position: absolute;
       top: 0;
       left: 0;
-      background-image:
-      linear-gradient(
-        rgba($accent-color, 0%) 40%, $accent-color
+      background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, rgb(161, 23, 43)),
+        color-stop(1, rgb(161, 23, 43))
       );
+      background-image: -o-linear-gradient(right bottom, rgba($accent-color, .5) 0%, rgba($accent-color, .99) 100%);
+      background-image: -moz-linear-gradient(right bottom, rgba($accent-color, .5) 0%, rgba($accent-color, .99) 100%);
+      background-image: -webkit-linear-gradient(right bottom, rgba($accent-color, .5) 0%, rgba($accent-color, .99) 100%);
+      background-image: -ms-linear-gradient(right bottom, rgba($accent-color, .5) 0%, rgba($accent-color, .99) 100%);
+      background-image: linear-gradient(to right bottom, rgba($accent-color, .5) 0%, rgba($accent-color, .99) 100%);
+
+
     }
     .content {
       position: relative;
