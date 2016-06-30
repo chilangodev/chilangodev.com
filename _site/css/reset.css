@@ -1,6 +1,6 @@
 body {
   color: #fff;
-  background: #A1172C;
+  background: #cd2740;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #161616; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #fff !important;
-    color: #A1172C !important;
+    color: #cd2740 !important;
     border-color: #eee; }
 
 .block {
@@ -67,11 +67,11 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #a1172b), color-stop(1, #a1172b));
-    background-image: -o-linear-gradient(right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%);
-    background-image: -moz-linear-gradient(right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%);
-    background-image: -webkit-linear-gradient(right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%);
-    background-image: -ms-linear-gradient(right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%);
-    background-image: linear-gradient(to right bottom, rgba(161, 23, 44, 0.5) 0%, rgba(161, 23, 44, 0.99) 100%); }
+    background-image: -o-linear-gradient(right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%);
+    background-image: -moz-linear-gradient(right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%);
+    background-image: -webkit-linear-gradient(right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%);
+    background-image: -ms-linear-gradient(right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%);
+    background-image: linear-gradient(to right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%); }
   .hero .content {
     position: relative;
     z-index: 1; }
@@ -101,13 +101,13 @@ h1, h2, h3, h4, h5, h6 {
       padding: 7px;
       font-size: 18px; }
       .talks .talk .social i {
-        color: #A1172C;
+        color: #cd2740;
         margin-right: 4px; }
 
 .section-title {
   margin: 0;
   padding: 30px 0;
-  background: #A1172C url("../images/bg-red.png"); }
+  background: #cd2740 url("../images/bg-red.png"); }
 
 .map {
   background: #fff;
@@ -140,4 +140,4 @@ footer {
     height: 54px;
     margin: 10px; }
     footer a:hover, footer a:focus, footer a:active {
-      color: #A1172C; }
+      color: #cd2740; }
