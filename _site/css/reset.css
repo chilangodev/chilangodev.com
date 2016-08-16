@@ -20,6 +20,13 @@ h1, h2, h3, h4, h5, h6 {
 .btn-lg {
   margin-bottom: 20px; }
 
+.talk-invite {
+  line-height: 24px; }
+
+.twitter-icon {
+  position: relative;
+  top: 1px; }
+
 .btn {
   font-weight: bold; }
 
