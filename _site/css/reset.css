@@ -56,6 +56,10 @@ h1, h2, h3, h4, h5, h6 {
 .unmargin-bottom {
   margin-bottom: 0 !important; }
 
+.disclaimer {
+  border-bottom: 1px solid #a21f33;
+  padding: 0 0 15px; }
+
 .hero {
   padding: 60px 0 90px;
   background: url("../images/bg-hero.png");

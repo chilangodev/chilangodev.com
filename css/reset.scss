@@ -82,6 +82,11 @@ h1, h2, h3, h4, h5, h6 {
 
 // Styles
 
+  .disclaimer {
+    border-bottom: 1px solid darken($accent-color, 10%);
+    padding: 0 0 15px;
+  }
+
   .hero {
     padding: 60px 0 90px;
     background: url('../images/bg-hero.png');
