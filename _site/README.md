@@ -1,5 +1,5 @@
 # Chilango Dev Website
-### Repo para el sitio web oficial de chilango rails!
+### Repo para el sitio web oficial de Chilango Dev!
 
 
 ##### Instructions to setup:
