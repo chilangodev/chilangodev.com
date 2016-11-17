@@ -52,7 +52,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100; }
 
 .lead {
-  font-weight: 400; }
+  font-weight: 400; 
+  color: black;
+}
 
 .unmargin {
   margin: 0 !important; }
@@ -67,11 +69,15 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #a21f33;
   padding: 0 0 15px; }
 
+.meetup {
+  padding: 60px 0 60px;
+}
+
 .hero {
-  padding: 60px 0 90px;
-  background: url("../images/bg-hero.png");
+  padding: 60px 0 60px;
+  background: white;
   position: relative;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+  }
   .hero:after {
     content: ' ';
     display: block;
@@ -80,12 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #a1172b), color-stop(1, #a1172b));
-    background-image: -o-linear-gradient(right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%);
-    background-image: -moz-linear-gradient(right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%);
-    background-image: -webkit-linear-gradient(right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%);
-    background-image: -ms-linear-gradient(right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%);
-    background-image: linear-gradient(to right bottom, rgba(205, 39, 64, 0.5) 0%, rgba(205, 39, 64, 0.99) 100%); }
+  }
   .hero .content {
     position: relative;
     z-index: 1; }
