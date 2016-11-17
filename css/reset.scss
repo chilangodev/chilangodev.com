@@ -8,7 +8,6 @@ $white: #fff;
 $gray-dark-color: #161616;
 $gray-light-color: #eee;
 $p-dark-color: #000; 
-$blank-color: #fff;
 $gray-medium-color: #637280;
 // Reset
 
@@ -109,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .hero {
-    background: $blank-color;
+    background: $white;
     padding: 60px 0 60px;
     position: relative;
     .content {
