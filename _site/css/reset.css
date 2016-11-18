@@ -56,7 +56,6 @@ h6 {
 
 .btn-primary {
   background: #fff;
-  background-image: linear-gradient(rgba(255, 255, 255, 0) 40%, #eee);
   border-color: #eee;
   color: #161616; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
