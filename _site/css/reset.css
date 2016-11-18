@@ -60,10 +60,14 @@ h6 {
   background: #fff;
   border-color: #eee;
   color: #161616; }
+  .btn-primary i {
+    color: #637280; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #fff !important;
-    color: #cd2740 !important;
+    background: #fff;
+    color: #cd2740;
     border-color: #eee; }
+    .btn-primary:hover i, .btn-primary:focus i, .btn-primary:active i {
+      color: #cd2740; }
 
 .block {
   padding: 30px 0 60px; }
@@ -172,6 +176,10 @@ h6 {
 .sponsors {
   background: #fff;
   color: #161616; }
+
+.wall-lead {
+  color: #fff;
+  padding-bottom: 30px; }
 
 .wall {
   padding-top: 50px;
