@@ -55,6 +55,7 @@ h6 {
   font-size: 28px; }
 
 .btn-primary {
+  border-radius: 0px;
   background: #fff;
   border-color: #eee;
   color: #161616; }
