@@ -71,6 +71,7 @@ font-weight: bold;
     font-size: 28px;
   }
   .btn-primary {
+    height: 90px;
     border-radius: 0px;
     background: $white;
     border-color: $gray-light-color;
@@ -79,8 +80,9 @@ font-weight: bold;
       background: $white!important;
       color: $accent-color!important;
       border-color: $gray-light-color;
+      }
     }
-  }
+   
 
 // Helpers
 
@@ -141,7 +143,7 @@ font-weight: bold;
     }
   }
   .meetup{
-    padding: 60px 0 60px;
+    padding: 30px 0 60px;
     background-image: url('../images/bg_pattern_black.png');
     .arrow-link {
       font-size: 32px;
@@ -208,8 +210,8 @@ font-weight: bold;
   }
   
   .wall {
+    padding-top: 50px;
     background: $gray-dark-color url('../images/bg_pattern_black.png');
-    padding: 30px 0 30px;
   }
   .wall-container {
     margin-top: 30px;
