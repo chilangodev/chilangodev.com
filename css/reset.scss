@@ -64,6 +64,7 @@ font-weight: bold;
 }
 
 // Buttons
+
   .btn {
     font-weight: bold;
   }
@@ -226,7 +227,7 @@ font-weight: bold;
   }
   .wall-container {
     margin-top: 30px;
-    padding: 50px 15px 15px 15px;
+    padding: 15px;
     color: $p-dark-color;
     background: #FFFFFF;
     box-shadow: 0 2px 10px 3px rgba(0,0,0,0.62);
@@ -236,16 +237,6 @@ font-weight: bold;
       color: $gray-medium-color;
     }
   }
-
-  .img-wall {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-  }
-  
   footer {
     border-top: 1px solid lighten($gray-dark-color, 10%);
     background: #000;
@@ -264,3 +255,21 @@ font-weight: bold;
       }
     }
   }
+
+// Ignore Mobile
+
+@media(min-width: 768px) {
+  
+  .wall-container {
+    padding-top: 50px;
+  }
+  .img-wall {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+}

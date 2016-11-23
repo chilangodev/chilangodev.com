@@ -187,7 +187,7 @@ h6 {
 
 .wall-container {
   margin-top: 30px;
-  padding: 50px 15px 15px 15px;
+  padding: 15px;
   color: #000;
   background: #FFFFFF;
   box-shadow: 0 2px 10px 3px rgba(0, 0, 0, 0.62);
@@ -195,14 +195,6 @@ h6 {
   min-height: 170px; }
   .wall-container p, .wall-container a {
     color: #637280; }
-
-.img-wall {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 0; }
 
 footer {
   border-top: 1px solid #303030;
@@ -219,3 +211,15 @@ footer {
     margin: 10px; }
     footer a:hover, footer a:focus, footer a:active {
       color: #cd2740; }
+
+@media (min-width: 768px) {
+  .wall-container {
+    padding-top: 50px; }
+
+  .img-wall {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0; } }
