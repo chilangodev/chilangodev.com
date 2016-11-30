@@ -80,10 +80,10 @@ font-weight: bold;
     i {
       color: $gray-medium-color;
     }
-    &:hover, &:focus, &:active {
+    &:hover, &:focus, &:active, &:active:hover, &:active:focus {
       background: $white;
+      border-color: $accent-color;
       color: $accent-color;
-      border-color: $gray-light-color;
       i {
         color: $accent-color;
       }

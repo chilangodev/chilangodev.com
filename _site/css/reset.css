@@ -62,11 +62,11 @@ h6 {
   color: #161616; }
   .btn-primary i {
     color: #637280; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus {
     background: #fff;
-    color: #cd2740;
-    border-color: #eee; }
-    .btn-primary:hover i, .btn-primary:focus i, .btn-primary:active i {
+    border-color: #cd2740;
+    color: #cd2740; }
+    .btn-primary:hover i, .btn-primary:focus i, .btn-primary:active i, .btn-primary:active:hover i, .btn-primary:active:focus i {
       color: #cd2740; }
 
 .block {
