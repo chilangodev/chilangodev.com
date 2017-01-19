@@ -60,7 +60,7 @@ font-size: 16px;
 
 // Gradients
 
-  .hero:after, .btn-primary {
+  .hero:after, .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background-image: -webkit-gradient(
       linear,
       right top,

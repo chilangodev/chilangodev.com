@@ -43,7 +43,7 @@ h6 {
   position: relative;
   top: 1px; }
 
-.hero:after, .btn-primary {
+.hero:after, .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0, #FF4159), color-stop(1, #FF9448));
   background-image: -o-linear-gradient(left bottom, #FF9448 0%, #FF4159 100%);
   background-image: -moz-linear-gradient(left bottom, #FF9448 0%, #FF4159 100%);
