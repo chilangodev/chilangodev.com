@@ -3,54 +3,49 @@
 
 // Variables
 
-$accent-color: #cd2740;
+$accent-color: #FF4159;
+$alt-color: #FF9448;
 $white: #fff;
-$gray-dark-color: #161616;
 $gray-light-color: #eee;
-$p-dark-color: #000; 
+$dark-color: #212647;
 $gray-medium-color: #637280;
 // Reset
 
 body {
-  color: $white;
-  background: $accent-color;
+  color: $dark-color;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-family: 'Work Sans', arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
 }
 a {
-  color: $white;
+  color: $accent-color;
   text-decoration: none;
   &:hover, &:focus, &:active {
-    color: $white;
+    color: $alt-color;
     text-decoration: underline;
   }
 }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
 h1 {
 font-size: 48.8px;
-font-weight: bold;
 }
 h2 {
 font-size: 41.6px;
-font-weight: bold;
-} 
+}
 h3{
 font-size: 34.4px;
-font-weight: bold;
 }
 h4{
 font-size: 27.2px;
-font-weight: bold;
 }
 h5{
 font-size: 18px;
-font-weight: bold;
-} 
+}
 h6 {
 font-size: 16px;
-font-weight: bold;
 }
 .btn-lg {
   margin-bottom: 20px;
@@ -63,33 +58,35 @@ font-weight: bold;
   top: 1px;
 }
 
+// Gradients
+
+  .hero:after, .btn-primary {
+    background-image: -webkit-gradient(
+      linear,
+      right top,
+      left bottom,
+      color-stop(0, $accent-color),
+      color-stop(1, $alt-color)
+    );
+    background-image: -o-linear-gradient(left bottom, $alt-color 0%, $accent-color 100%);
+    background-image: -moz-linear-gradient(left bottom, $alt-color 0%, $accent-color 100%);
+    background-image: -webkit-linear-gradient(left bottom, $alt-color 0%, $accent-color 100%);
+    background-image: -ms-linear-gradient(left bottom, $alt-color 0%, $accent-color 100%);
+    background-image: linear-gradient(to left bottom, $alt-color 0%, $accent-color 100%);
+    border: 0px;
+  }
+
 // Buttons
 
   .btn {
     font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 4px;
   }
   .btn-lg {
     font-size: 28px;
   }
-  .btn-primary {
-    height: 90px;
-    border-radius: 0px;
-    background: $white;
-    border-color: $gray-light-color;
-    color: $gray-dark-color;
-    i {
-      color: $gray-medium-color;
-    }
-    &:hover, &:focus, &:active, &:active:hover, &:active:focus {
-      background: $white;
-      border-color: $accent-color;
-      color: $accent-color;
-      i {
-        color: $accent-color;
-      }
-    }
-  }
-   
+
 
 // Helpers
 
@@ -102,7 +99,7 @@ font-weight: bold;
     font-weight: 100;
   }
   .lead {
-    color: $p-dark-color;
+    color: $dark-color;
     font-weight: 400;
   }
   .lead-accent {
@@ -124,7 +121,7 @@ font-weight: bold;
     margin-bottom: 30px;
   }
   .margin-top {
-    margin-top: 30px; 
+    margin-top: 30px;
   }
 // Styles
 
@@ -134,10 +131,12 @@ font-weight: bold;
   }
 
   .hero {
-    background: $white;
+    color: $white;
     padding: 60px 0 60px;
     position: relative;
-    .content {
+    background: url('../images/bg-hero.png');
+    background-size: 'cover';
+    .container {
       position: relative;
       z-index: 1;
     }
@@ -148,14 +147,27 @@ font-weight: bold;
     .date {
       margin: 30px 0;
     }
-  }
-  .meetup{
-    padding: 30px 0 60px;
-    background-image: url('../images/bg_pattern_black.png');
-    .arrow-link {
-      font-size: 32px;
-      margin-top: 20px;
+    .hero-section {
+      background: $white;
+      box-shadow: 0 10px 30px rgba(0,0,0,.1);
+      margin-bottom: -200px;
+      color: $dark-color;
+      .btn {
+        margin: 15px 0;
+      }
+      .free-label {
+        color: $gray-medium-color;
+      }
+    }
+    &:after {
+      content: ' ';
       display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      opacity: .9;
     }
   }
   .meetup-date {
@@ -167,14 +179,15 @@ font-weight: bold;
     color: $accent-color;
     padding: 20px;
   }
-  .dark {
-    background: $gray-dark-color url('../images/bg_pattern_black.png');
+  .pattern-bg {
+    background: $gray-light-color url('../images/bg-pattern.png');
   }
    .talk-section {
     margin-bottom: 35px;
   }
-  .talks {
-    box-shadow: 0 0 32px rgba(0,0,0,.3);
+  #talks {
+    color: $dark-color;
+    padding-top: 200px;
     position: relative;
     .talk {
       margin-bottom: 30px;
@@ -197,10 +210,11 @@ font-weight: bold;
     margin: 0;
     padding: 30px 0;
     background: $accent-color;
+    color: $white;
   }
   .map {
     background: $white;
-    color: $gray-dark-color;
+    color: $dark-color;
     height: 400px;
     #googlemaps {
       width: 100%;
@@ -216,9 +230,9 @@ font-weight: bold;
   }
   .sponsors {
     background: $white;
-    color: $gray-dark-color;
+    color: $dark-color;
   }
-  
+
   .wall-lead {
     color: $white;
     padding-bottom: 30px;
@@ -226,14 +240,14 @@ font-weight: bold;
 
   .wall {
     padding-top: 50px;
-    background: $gray-dark-color url('../images/bg_pattern_black.png');
+    background: $dark-color url('../images/bg_pattern_black.png');
   }
   .wall-container {
     margin-top: 30px;
     padding: 15px;
-    color: $p-dark-color;
+    color: $dark-color;
     background: #FFFFFF;
-    box-shadow: 0 2px 10px 3px rgba(0,0,0,0.62);
+    box-shadow: 0 2px 10px 3px rgba(0,0,0,0.30);
     border-radius: 4px;
     min-height: 170px;
     p, a {
@@ -241,20 +255,21 @@ font-weight: bold;
     }
   }
   footer {
-    border-top: 1px solid lighten($gray-dark-color, 10%);
-    background: #000;
+    background: $accent-color;
+    border-top: 1px solid lighten($dark-color, 10%);
     a {
       display: inline-block;
       border-radius: 50%;
-      background: $gray-dark-color;
-      border: 1px solid lighten($gray-dark-color, 10%);
+      background: $dark-color;
+      border: 1px solid lighten($dark-color, 10%);
       font-size: 24px;
       padding: 10px;
       width: 54px;
       height: 54px;
       margin: 10px;
+      color: $white;
       &:hover, &:focus, &:active {
-        color: $accent-color;
+        color: $alt-color;
       }
     }
   }
@@ -262,7 +277,7 @@ font-weight: bold;
 // Ignore Mobile
 
 @media(min-width: 768px) {
-  
+
   .wall-container {
     padding-top: 50px;
   }
