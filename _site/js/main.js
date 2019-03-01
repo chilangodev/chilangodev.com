@@ -12,8 +12,8 @@ jQuery(document).ready(function() {
   }
 
   function showGoogleMaps(position, centerPosition) {
-    var position = [19.417554, -99.162323]
-    var centerPosition = [19.416967, -99.1574625]
+    var position = [19.4114671, -99.1675351]
+    var centerPosition = [19.4107671, -99.1681351]
     var latLng = new google.maps.LatLng(position[0], position[1])
     var center = new google.maps.LatLng(centerPosition[0], centerPosition[1])
 
