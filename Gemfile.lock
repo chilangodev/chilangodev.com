@@ -2,9 +2,9 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorator (1.1.0)
-    ffi (1.9.14)
+    ffi (~> 1.9.24)
     forwardable-extended (2.6.0)
-    jekyll (3.2.1)
+    jekyll (~> 3.6.3)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
       jekyll-watch (~> 1.1)
@@ -29,7 +29,7 @@ GEM
       forwardable-extended (~> 2.6)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
-      ffi (>= 0.5.0)
+      ffi (~> 1.9.24)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
@@ -38,7 +38,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.2.1)
+  jekyll (~> 3.6.3)
   minima
 
 RUBY VERSION
