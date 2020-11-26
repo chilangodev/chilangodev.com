@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss"
+	],
+	"sourcesContent": [
+		"@import \"bootstrap.min.css\";\n@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,600);\n@import \"reset.css\";\n"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAP,sBAAO;AACP,OAAO,CAAC,kEAAI;AACZ,OAAO,CAAP,cAAO"
+}
