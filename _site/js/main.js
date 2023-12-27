@@ -7,7 +7,7 @@ jQuery(document).ready(function() {
 
   function initMaps() {
     if(jQuery('#googlemaps').length) {
-      google.maps.event.addDomListener(window, 'load', showGoogleMaps)
+      window.addEventListener('load', showGoogleMaps);
     }
   }
 

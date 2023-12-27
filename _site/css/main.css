@@ -1,5 +1,5 @@
-@import url(bootstrap.min.css);
+@import "bootstrap.min.css";
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,600);
-@import url(reset.css);
+@import "reset.css";
 
 /*# sourceMappingURL=main.css.map */
