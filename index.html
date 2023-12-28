@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHBP6Vna357Wu4VEReFkH7SCef0Zj1CSk&callback=initMap"></script>
-    <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/main.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHBP6Vna357Wu4VEReFkH7SCef0Zj1CSk&callback=showGoogleMaps"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <meta property="og:url" content="http://chilangodev.com" />
     <meta property="og:title" content="Chilango Dev" />
@@ -26,8 +25,9 @@
             <img src="images/logo-retina.png" alt="Chilango Dev" width="347" class="logo">
             <h4 class="block">Somos una comunidad de desarrolladores de software y nos reunimos cada dos meses para platicar, aprender, chelear y comer pizza.</h4>
             <div class="hero-section block">
-              <h5 class="uppercase">Proximo meetup</h5>
-              <h2 class="unmargin">¡MUY PRONTO!</h2>
+              <h5 class="uppercase">Proximo meetup 2019</h5>
+              <h2 class="unmargin-top"> MUY PRONTO!</h2>
+              </a>
           </div>
         </div>
         </div>
@@ -35,9 +35,9 @@
     </div>
     <div id="talks" class="pattern-bg block">
       <div class="container">
-        <h2 class="talk-section">Speakers por confirmar...</h2>
+        <h2 class="talk-section">Las Pláticas</h2>
 <!--          <div class="row talk-section">
-          <div class="col-sm-4 talk" target="_blank">
+          <div class="col-sm-6 talk" target="_blank">
             <img src="images/talks/carlos-glez.png" class="img-responsive center-block">
             <h3>Carlos González</h3>
             <p>Predicciones de UI/UX que veremos en 2017</p>
@@ -46,21 +46,31 @@
               @NinjaFrontend
             </a>
           </div>
-          <div class="col-sm-4 talk" target="_blank">
+          <div class="col-sm-6 talk" target="_blank">
             <img src="images/talks/armando-rojas.png" class="img-responsive center-block">
             <h3>Armando Rojas</h3>
             <p>Virtual Reality the new World</p>
           </div>
           <div class="col-sm-4 talk" target="_blank">
-            <img src="images/talks/jordi-adame.png" class="img-responsive center-block">
-            <h3>Jordi Adame</h3>
-            <p>Construyendo un banco con Elixir</p>
-            <a href="https://twitter.com/jordi" target="_blank" >
+            <img src="images/talks/carlos-salazar.png" class="img-responsive center-block">
+            <h3>Carlos Salazar</h3>
+            <p>Programación funcional con Scala</p>
+            <a href="https://twitter.com/chuuck_sc" target="_blank" >
               <img src="images/twitter.png" width="20" class="twitter-icon" />
-              @jordi
+              @chuuck_sc
             </a>
           </div>
         </div> -->
+        <div class="row talk-section">
+          <div class="col-sm-10 col-sm-offset-1 talk" target="_blank">
+            <img src="images/talks/avatar.png" width="291" class="img-responsive center-block">
+            <h3>¿Quieres dar una platica?</h3>
+            <p>¡Mándanos un correo correo a!</p>
+            <a href="mailto:eric@easybroker.com" target="_top">
+              eric@easybroker.com
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <h2 class="section-title">¿Cómo llegar?</h2>
@@ -70,20 +80,19 @@
         <div class="row">
           <div class="col-sm-4 col-sm-offset-8">
             <div class="white block">
-              <h4>A.255</h4>
+              <h4>@Impact Hub</h4>
               <p>
-                Amsterdam 255 
-                <br>
-                Col. Hipódromo, 06100
-                <br>
-                Ciudad de México 
+                Álvaro Obregón 168,
+                <br />
+                1er Piso Col. Roma Norte,
+                <br />
+                06700 Ciudad de México
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
 <!--     <div class="sponsors block">
       <div class="container">
         <h2>Patrocinadores</h2>
@@ -111,27 +120,27 @@
         </div>
       </div>
     </div> -->
-
     <h2 class="section-title">Wall of fame</h2>
     <div class="wall block">
       <div class="container">
         <h4 class="wall-lead unmargin-bottom">Ellos, son los speakers que han estado con nosotros,<br>!los verdaderos rockstars!.</h4>
 
         <div class="row margin-bottom">
-          <div class="col-sm-3 col-sm-offset-3" target="_blank">
+                    
+          <div class="col-sm-3" target="_blank">
             <div class="wall-container">
               <img src="images/talks/carlos-glez.png" class="img-responsive center-block img-wall">
               <h5>Carlos González</h5>
               <p>Mar-17</p>
-              <a href="https://twitter.com/NinjaFrontend" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @NinjaFrontend
-              </a>
             </div>
           </div>
+        </div>
+
+        <div class="row margin-bottom">
+
           <div class="col-sm-3" target="_blank">
             <div class="wall-container">
-              <img src="images/talks/armando-rojas.png" class="img-responsive center-block img-wall">
+              <img src="images/wall/aldojyr.png" class="img-responsive center-block img-wall">
               <h5>Armando Rojas</h5>
               <p>Mar-17</p>
             </div>
@@ -139,158 +148,34 @@
 
           <div class="col-sm-3" target="_blank">
             <div class="wall-container">
-              <img src="images/talks/jordi-adame.png" class="img-responsive center-block img-wall">
-              <h5>Jordi Adame</h5>
-              <p>Mar-17</p>
-              <a href="https://twitter.com/jordi" class="" target="_blank" >
+              <img src="images/wall/norberto.png" class="img-responsive center-block img-wall">
+              <h5>Norberto Ortigoza</h5>
+              <p>Oct-16</p>
+              <a href="https://twitter.com/hiphoox" class="" target="_blank" >
                 <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @jordi
+                @hiphoox
               </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/SergioBop.png" class="img-responsive center-block img-wall">
+              <h5>Sergio Bop</h5>
+              <p>Oct-16</p>
+              <a href="https://twitter.com/darkbop" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @darkbop
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/martin.png" class="img-responsive center-block img-wall">
+              <h5>Martín Manriquez</h5>
+              <p>Ago-16, Oct-16</p>
             </div>
           </div>
         </div>
-
-        <div class="row margin-bottom">
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/eric.png" class="img-responsive center-block img-wall">
-              <h5>Eric Northam</h5>
-              <p>Ene-17</p>
-              <a href="https://twitter.com/enortham" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @enortham
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/martinchili.png" class="img-responsive center-block img-wall">
-              <h5>Martin Trejo</h5>
-              <p>Ene-17</p>
-              <a href="https://twitter.com/chillicoder" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @chillicoder
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/carlosz.png" class="img-responsive center-block img-wall">
-              <h5>Carlos Salazar</h5>
-              <p>Ene-17</p>
-              <a href="https://twitter.com/chuuck_sc" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @chuuck_sc
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/said.png" class="img-responsive center-block img-wall">
-              <h5>Said Díaz</h5>
-              <p>Ene-17</p>
-              <a href="https://twitter.com/sr_shadid" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @sr_shadid
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row margin-bottom">
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/eduardo.png" class="img-responsive center-block img-wall">
-              <h5>Eduardo Vaugier</h5>
-              <p>Dic-16</p>
-              <a href="https://twitter.com/cool_acid" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @cool_acid
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/miguel.png" class="img-responsive center-block img-wall">
-              <h5>Miguel Arroyo</h5>
-              <p>Dic-16</p>
-              <a href="https://twitter.com/ruidovisual_" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @ruidovisual_
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/rudy.png" class="img-responsive center-block img-wall">
-              <h5>Rodolfo Valdés</h5>
-              <p>Dic-16</p>
-              <a href="https://twitter.com/Rudeh3000" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @Rudeh3000
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/carlos.png" class="img-responsive center-block img-wall">
-              <h5>Carlos Sánchez</h5>
-              <p>Dic-16</p>
-              <a href="https://twitter.com/GalaxyAppsMx" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @GalaxyAppsMx
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row margin-bottom">
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/abram.png" class="img-responsive center-block img-wall">
-              <h5>Abram Arias</h5>
-              <p>Jun-16</p>
-              <a href="https://twitter.com/ariasss7" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @ariasss7
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/danielcontr.png" class="img-responsive center-block img-wall">
-              <h5>Daniel Contreras</h5>
-              <p>Jun-16</p>
-              <a href="https://twitter.com/dan_cmj" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @dan_cmj
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/dan.png" class="img-responsive center-block img-wall">
-              <h5>Daniel Pliego</h5>
-              <p>Ago-16</p>
-              <a href="https://twitter.com/danpliego" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @danpliego
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/jeduan.png" class="img-responsive center-block img-wall">
-              <h5>Jeduan Cornejo</h5>
-              <p>Dic-16</p>
-              <a href="https://twitter.com/jeduan" class="" target="_blank" >
-                <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @jeduan
-              </a>
-            </div>
-          </div>
-        </div>
-
         <div class="row margin-bottom">
           <div class="col-sm-3" target="_blank">
             <div class="wall-container">
@@ -337,46 +222,144 @@
             </div>
           </div>
         </div>
-
         <div class="row margin-bottom">
           <div class="col-sm-3" target="_blank">
             <div class="wall-container">
-              <img src="images/wall/aldojyr.png" class="img-responsive center-block img-wall">
-              <h5>Aldo Rivadeneira y Jyr Gaxiola</h5>
-              <p>Oct-16</p>
-            </div>
-          </div>
-          <div class="col-sm-3" target="_blank">
-            <div class="wall-container">
-              <img src="images/wall/norberto.png" class="img-responsive center-block img-wall">
-              <h5>Norberto Ortigoza</h5>
-              <p>Oct-16</p>
-              <a href="https://twitter.com/hiphoox" class="" target="_blank" >
+              <img src="images/wall/abram.png" class="img-responsive center-block img-wall">
+              <h5>Abram Arias</h5>
+              <p>Jun-16</p>
+              <a href="https://twitter.com/ariasss7" class="" target="_blank" >
                 <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @hiphoox
+                @ariasss7
               </a>
             </div>
           </div>
           <div class="col-sm-3" target="_blank">
             <div class="wall-container">
-              <img src="images/wall/SergioBop.png" class="img-responsive center-block img-wall">
-              <h5>Sergio Bop</h5>
-              <p>Oct-16</p>
-              <a href="https://twitter.com/darkbop" class="" target="_blank" >
+              <img src="images/wall/danielcontr.png" class="img-responsive center-block img-wall">
+              <h5>Daniel Contreras</h5>
+              <p>Jun-16</p>
+              <a href="https://twitter.com/dan_cmj" class="" target="_blank" >
                 <img src="images/twitter.png" width="20" class="twitter-icon" />
-                @darkbop
+                @dan_cmj
               </a>
             </div>
           </div>
           <div class="col-sm-3" target="_blank">
             <div class="wall-container">
-              <img src="images/wall/martin.png" class="img-responsive center-block img-wall">
-              <h5>Martín Manriquez</h5>
-              <p>Ago-16, Oct-16</p>
+              <img src="images/wall/dan.png" class="img-responsive center-block img-wall">
+              <h5>Daniel Pliego</h5>
+              <p>Ago-16</p>
+              <a href="https://twitter.com/danpliego" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @danpliego
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/jeduan.png" class="img-responsive center-block img-wall">
+              <h5>Jeduan Cornejo</h5>
+              <p>Dic-16</p>
+              <a href="https://twitter.com/jeduan" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @jeduan
+              </a>
             </div>
           </div>
         </div>
-
+        <div class="row margin-bottom">
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/eduardo.png" class="img-responsive center-block img-wall">
+              <h5>Eduardo Vaugier</h5>
+              <p>Dic-16</p>
+              <a href="https://twitter.com/cool_acid" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @cool_acid
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/miguel.png" class="img-responsive center-block img-wall">
+              <h5>Miguel Arroyo</h5>
+              <p>Dic-16</p>
+              <a href="https://twitter.com/ruidovisual_" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @ruidovisual_
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/rudy.png" class="img-responsive center-block img-wall">
+              <h5>Rodolfo Valdés</h5>
+              <p>Dic-16</p>
+              <a href="https://twitter.com/Rudeh3000" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @Rudeh3000
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/carlos.png" class="img-responsive center-block img-wall">
+              <h5>Carlos Sánchez</h5>
+              <p>Dic-16</p>
+              <a href="https://twitter.com/GalaxyAppsMx" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @GalaxyAppsMx
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row margin-bottom">
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/eric.png" class="img-responsive center-block img-wall">
+              <h5>Eric Northam</h5>
+              <p>Ene-17</p>
+              <a href="https://twitter.com/enortham" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @enortham
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/martinchili.png" class="img-responsive center-block img-wall">
+              <h5>Martin Trejo</h5>
+              <p>Ene-17</p>
+              <a href="https://twitter.com/chillicoder" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @chillicoder
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/carlosz.png" class="img-responsive center-block img-wall">
+              <h5>Carlos Salazar</h5>
+              <p>Ene-17</p>
+              <a href="https://twitter.com/chuuck_sc" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @chuuck_sc
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-3" target="_blank">
+            <div class="wall-container">
+              <img src="images/wall/said.png" class="img-responsive center-block img-wall">
+              <h5>Said Díaz</h5>
+              <p>Ene-17</p>
+              <a href="https://twitter.com/sr_shadid" class="" target="_blank" >
+                <img src="images/twitter.png" width="20" class="twitter-icon" />
+                @sr_shadid
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="block">
